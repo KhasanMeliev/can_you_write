@@ -33,10 +33,10 @@ function random() {
 }
 function submit() {
   if (lastCharacter.value == word.value) {
-    alert(`you can write ${word.value} text🤩☺`);
-    word.value = "";
-    lastCharacter.value = "";
+    alert(`you can write ${word.value} text🤩☺️`);
   } else {
     alert(`you can't write ${word.value} text🥱`);
   }
+  word.value = "";
+  lastCharacter.value = "";
 }

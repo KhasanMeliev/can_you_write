@@ -42,7 +42,7 @@ button:first-child {
 button {
   background-color: #18f08b;
   color: #16191e;
-  width: 200px;
+  width: 60%;
   height: 40px;
   border: none;
   border-radius: 3px;
@@ -58,6 +58,7 @@ button:hover {
 }
 
 button:first-child {
+  width: 200px;
   background-color: inherit;
   border: none;
   color: white;
